@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
 <title>Frank CI Dashboard</title>
@@ -25,6 +24,15 @@ padding:20px;
 padding:20px;
 }
 
+.search{
+margin-bottom:20px;
+}
+
+input{
+padding:8px;
+width:300px;
+}
+
 table{
 width:100%;
 border-collapse:collapse;
@@ -35,14 +43,21 @@ padding:10px;
 border-bottom:1px solid #334155;
 }
 
-.pass{color:#22c55e;}
-.fail{color:#ef4444;}
+.pass{color:#22c55e}
+.fail{color:#ef4444}
+.running{color:#facc15}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-bottom:20px;
+}
 
 .card{
 background:#1e293b;
 padding:20px;
 border-radius:8px;
-margin-bottom:20px;
 }
 
 </style>
@@ -57,6 +72,29 @@ margin-bottom:20px;
 
 <div class="container">
 
+<div class="search">
+<input id="searchBox" placeholder="Search repository...">
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Build Success Rate</h3>
+<canvas id="successChart"></canvas>
+</div>
+
+<div class="card">
+<h3>Average Coverage</h3>
+<canvas id="coverageChart"></canvas>
+</div>
+
+<div class="card">
+<h3>Queue Time</h3>
+<canvas id="queueChart"></canvas>
+</div>
+
+</div>
+
 <div class="card">
 
 <h3>Repositories</h3>
@@ -64,22 +102,18 @@ margin-bottom:20px;
 <table id="repoTable">
 
 <tr>
-<th>Repository</th>
+<th>Repo</th>
 <th>Status</th>
 <th>Branch</th>
 <th>Commit</th>
+<th>Author</th>
 <th>Duration</th>
-<th>Tests</th>
-<th>Run</th>
+<th>Coverage</th>
+<th>Env</th>
 </tr>
 
 </table>
 
-</div>
-
-<div class="card">
-<h3>Build Duration</h3>
-<canvas id="durationChart"></canvas>
 </div>
 
 </div>
