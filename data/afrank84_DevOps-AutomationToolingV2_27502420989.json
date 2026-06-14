@@ -1,0 +1,25 @@
+{
+  "repo": "afrank84/DevOps-AutomationToolingV2",
+  "workflow": "CI Telemetry",
+  "run_id": "27502420989",
+  "run_number": "18",
+  "event": "workflow_dispatch",
+  "actor": "afrank84",
+  "branch": "main",
+  "commit": "4b4ed91eda4a6f4f8367bb6fe2e26d9e9befa392",
+  "commit_author": "Anthony Frank",
+  "commit_message": "Update CI telemetry workflow to use DASHBOARD_TOKEN",
+  "status": "in_progress",
+  "conclusion": "null",
+  "queue_time": "2026-06-14T14:49:54Z",
+  "runner": {
+    "name": "GitHub Actions 1000000423",
+    "os": "Linux",
+    "arch": "X64"
+  },
+  "job": {
+    "started_at": "2026-06-14T14:49:59Z",
+    "completed_at": "null"
+  },
+  "timestamp": "2026-06-14T14:50:03Z"
+}
