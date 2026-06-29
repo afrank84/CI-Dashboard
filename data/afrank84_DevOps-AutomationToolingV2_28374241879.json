@@ -1,0 +1,25 @@
+{
+  "repo": "afrank84/DevOps-AutomationToolingV2",
+  "workflow": "CI Telemetry",
+  "run_id": "28374241879",
+  "run_number": "20",
+  "event": "push",
+  "actor": "afrank84",
+  "branch": "main",
+  "commit": "7fdeba880e8fb8a1a8f0915fe41afa65d6de764a",
+  "commit_author": "Anthony Frank",
+  "commit_message": "Add files via upload",
+  "status": "in_progress",
+  "conclusion": "null",
+  "queue_time": "2026-06-29T13:06:51Z",
+  "runner": {
+    "name": "GitHub Actions 1000000485",
+    "os": "Linux",
+    "arch": "X64"
+  },
+  "job": {
+    "started_at": "2026-06-29T13:06:54Z",
+    "completed_at": "null"
+  },
+  "timestamp": "2026-06-29T13:06:58Z"
+}
