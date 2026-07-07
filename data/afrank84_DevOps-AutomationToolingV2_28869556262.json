@@ -1,0 +1,25 @@
+{
+  "repo": "afrank84/DevOps-AutomationToolingV2",
+  "workflow": "CI Telemetry",
+  "run_id": "28869556262",
+  "run_number": "25",
+  "event": "push",
+  "actor": "afrank84",
+  "branch": "main",
+  "commit": "27eb0aa8ec142887707ad8da566c021dc819c698",
+  "commit_author": "afrank84",
+  "commit_message": "Updated README and added url",
+  "status": "in_progress",
+  "conclusion": "null",
+  "queue_time": "2026-07-07T13:23:04Z",
+  "runner": {
+    "name": "GitHub Actions 1000000523",
+    "os": "Linux",
+    "arch": "X64"
+  },
+  "job": {
+    "started_at": "2026-07-07T13:23:07Z",
+    "completed_at": "null"
+  },
+  "timestamp": "2026-07-07T13:23:11Z"
+}
