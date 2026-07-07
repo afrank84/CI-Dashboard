@@ -1,0 +1,25 @@
+{
+  "repo": "afrank84/DevOps-AutomationToolingV2",
+  "workflow": "CI Telemetry",
+  "run_id": "28868541720",
+  "run_number": "23",
+  "event": "push",
+  "actor": "afrank84",
+  "branch": "main",
+  "commit": "af84c12498fad4026b85d619e41b9147eda0a558",
+  "commit_author": "afrank84",
+  "commit_message": "removed all the old site files, not going this route anymore.",
+  "status": "in_progress",
+  "conclusion": "null",
+  "queue_time": "2026-07-07T13:07:28Z",
+  "runner": {
+    "name": "GitHub Actions 1000000521",
+    "os": "Linux",
+    "arch": "X64"
+  },
+  "job": {
+    "started_at": "2026-07-07T13:07:31Z",
+    "completed_at": "null"
+  },
+  "timestamp": "2026-07-07T13:07:36Z"
+}
